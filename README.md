@@ -4,8 +4,13 @@ En este mini proyecto se plantea un conversor de monedas utilizando [ExchangeRat
 y Java. Se desarrolló una interfaz en consola mediante la clase Scanner.
 
 # Tecnologías
-**Java**: para el desarrollo de la lógica
-**GSON**: librería de google para el mapeo de JSON a clases de Java
+- **Java**: para el desarrollo de la lógica
+- **GSON**: librería de google para el mapeo de JSON a clases de Java
+- **Lombock**: librería para facilitar el desarrollo
+
+# Funcionalidades
+- **Conversor**: Proporciona un conversor entre divisas
+- **Historial**: Al finalizar el programa se crea un archivo .json con el historial transacciones
 
 # Anotaciones
 - Por ahora solo se consideran 5 divisas (Pesos colombianos, Pesos argentinos, Reales brasileros y dólares)
