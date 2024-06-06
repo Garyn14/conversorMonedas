@@ -2,6 +2,7 @@ package com.Alura;
 
 import com.Alura.model.Divisas;
 import com.Alura.model.ExchangeCambio;
+import com.Alura.model.TipoCambio;
 
 import java.io.IOException;
 
@@ -12,9 +13,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int opc = 0;
-        double monto = 0;
-        double montoConvertido = 0;
-        ExchangeCambio cambioExchange = new ExchangeCambio();
+        double monto;
+        double montoConvertido;
+        TipoCambio cambioExchange = new ExchangeCambio();
         String divisaInicial;
         String divisaFinal;
 
